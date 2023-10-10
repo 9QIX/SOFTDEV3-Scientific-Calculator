@@ -2,9 +2,6 @@ import sympy as sp
 
 
 def scientific_calculator():
-    print("-" * 76)
-    print("Enter a mathematical expression or 'quit' to exit.")
-    print("-" * 76)
     print(" ______________________________________________________________________")
     print("|  _______   _______   _______   _______   _______   _______   _______  |")
     print("| |       | |       | |       | |       | |       | |       | |       | |")
