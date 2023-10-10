@@ -2,8 +2,6 @@
 
 A simple scientific calculator implemented in Python using the SymPy library. This calculator allows you to perform basic mathematical operations, as well as some advanced functions and calculations. It provides both symbolic and numerical evaluation of mathematical expressions.
 
-![Scientific Calculator](calculator.png)
-
 ## Features
 
 - Addition (`+`)
