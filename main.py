@@ -35,11 +35,22 @@ def scientific_calculator():
                 # If the result is a symbolic expression, evaluate it numerically
                 result = float(result)
 
-            print("-" * 76)
-            print("Result:", result)
+            if isinstance(result, complex):
+                # If the result is a complex number, display it as a string
+                print("-" * 76)
+                print("Result:", str(result))
+            else:
+                print("-" * 76)
+                print("Result:", result)
         except (ValueError, sp.SympifyError):
             print("-" * 76)
             print("Invalid input. Please enter a valid expression.")
+        except ZeroDivisionError:
+            print("-" * 76)
+            print("Division by zero is not allowed.")
+        except Exception as e:
+            print("-" * 76)
+            print("An error occurred:", str(e))
 
 
 if __name__ == "__main__":
