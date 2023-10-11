@@ -50,7 +50,10 @@ def scientific_calculator():
             print("Division by zero is not allowed.")
         except Exception as e:
             print("-" * 76)
-            print("An error occurred:", str(e))
+            print("Syntax Error")
+        # except Exception as e:
+        #     print("-" * 76)
+        #     print("An error occurred:", str(e))
 
 
 if __name__ == "__main__":
